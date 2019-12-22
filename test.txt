@@ -1,0 +1,4 @@
+
+C:\Programming\python-projects\mp-downloader>py main.py http://ipv4.download.thinkbroadband.com/10MB.zip
+
+Downloaded_file(path='C:\\Programming\\python-projects\\mp-downloader\\10MB.zip', basename='10MB.zip', crc32='F1AFE129')
