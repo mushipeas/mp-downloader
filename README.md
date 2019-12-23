@@ -41,3 +41,11 @@ Above the base directory:
 
 ### As part of a project:
  ** This needs to be developed.
+
+The project folder needs to be renamed to mp_downloader (the - is not compatible for imports), and then placed in the main project directory. The main function can then be imported as:
+
+    from mp_downloader.__main__ import download_file
+
+download_file can then be used as:
+
+    download_file(URL: str, dirname: str, chunksize=8192)
